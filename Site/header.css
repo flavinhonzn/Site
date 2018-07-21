@@ -1,0 +1,481 @@
+body {
+    background-color: #ffffff;
+    
+}
+
+header {
+    margin-top: -5px;
+    margin-left: 10px;
+    margin-bottom: -62px;
+    
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+header h1 {
+    margin: 0;
+    background-image: url(LG.png);
+    background-repeat: no-repeat;
+    width: 38px;
+    height: 41px;
+    margin-top: 15px;
+}
+
+header h1 span {
+    visibility: hidden;
+}
+
+header nav ul {
+    margin-top: -5px;
+    
+}
+    
+
+header nav li {
+    list-style: none;
+    margin-right: 80px;
+    display: inline-block; 
+    margin-top: 15px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    
+}
+
+header nav li a {
+    color: #fafafc;
+    text-decoration: none;
+    font-size: 22px;
+    
+}
+
+ header nav ul img {
+    margin-right: -190px;
+    padding-left: 90px;
+    margin-bottom: -20px
+}
+ 
+.botao {
+    background-color: #fd646a;
+    display: block;
+    box-shadow: 0px 6px 0px 0px #fd646a;
+    padding-bottom: 14px;
+    padding-top: 14px;
+    margin-left: 260px;
+    border-radius: 30px;
+    width: 267px;
+    height: 22px;
+    font-size: 21px;
+    font-weight: 400;
+    color: #fff0f1;
+    text-decoration: none;
+    text-align: center;
+}
+
+section#topo {
+    background-image: url(hero-image.png);
+    background-repeat: no-repeat;
+    height: 760px;
+    margin-left: -9px;
+    margin-right: -8px;
+   background-size: cover;
+    margin-top: -70px
+}
+
+section#topo .chamada {
+    color: #ffffff;
+    margin-top: 220px;
+    text-align: center;
+    margin-left: 80px
+}
+
+section#topo .chamada h2 {
+    font-size: 48px;
+    font-weight: 400;
+    margin-right: -90px;
+}
+
+section#topo .chamada p {
+    margin-top: -25px;
+    font-size: 22px;
+    font-weight: 400;
+    margin-left: 110px
+} 
+
+.bg {
+    background-image:url(vignettes.png);
+    background-repeat:no-repeat;
+    width:1340px;
+    height:356px;
+    position:relative;
+    margin-top: -45px;
+    margin-left: 0px;
+    
+    filter:alpha(opacity=30);
+     opacity: 0.3;
+     -webkit-opacity:0.7;
+    background-image: linear-gradient(to top, #ffffff 0%, rgba(255, 2 255, 0) 100%);
+}
+
+.fg .bg {
+    width: 1340px;
+    margin-top: -20px;
+   background-image: linear-gradient(to top, #ffffff 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+section#Messages .chamada h2 {
+    width: 489px;
+    height: 45px;
+    color: #4c4c51;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    margin-left: -140px;
+    padding-bottom: -20px;
+    margin-top: -5px
+       
+}
+
+section#Messages .chamada p {
+    width: 693px;
+    height: 84px;
+    opacity: 0.9;
+    color: #88939e;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    margin-left: -140px;
+    margin-top: -15px;
+    
+} 
+
+section#Messages .chamada img {
+    margin-left: 600px;
+    margin-top: -160px
+}
+
+section#Numeros .chamada img {
+    margin-left: -150px;
+    margin-top: 100px;
+    height: 93px;
+    width: 1197px;
+}
+
+
+
+
+section#Help .chamada img {
+    margin-left: -190px;
+}
+
+section#Help .Micro h2 {
+width: 342px;
+margin-left: 148px;
+height: 28px;
+opacity: 0.9;
+color: #fb5c68;
+font-family: 'Source Sans Pro', sans-serif;
+font-size: 22px;
+font-weight: 700;
+}
+
+
+section#Help .Micro h3 {
+    margin-top: -40px;
+    margin-left: 30px;
+}
+
+section#Help .Micro p {
+width: 342px;
+height: 56px;
+opacity: 0.9;
+margin-left: 110px;
+margin-top: -60px;    
+color: #88939e;
+font-family: 'Source Sans Pro', sans-serif;
+font-size: 22px;
+font-weight: 400;
+}
+
+section#Help .Fillr h3 {
+    margin-left: -460px;
+    margin-top: -80px;
+}
+
+
+section#Help .Fillr h2 {
+
+width: 352px;
+ margin-left: -360px;
+margin-top: 190px;    
+height: 56px;
+opacity: 0.9;
+color: #fb5c68;
+font-family: 'Source Sans Pro', sans-serif;
+font-size: 22px;
+font-weight: 400;
+}
+
+section#Help .Fillr p {
+margin-left: -370px;
+margin-top: -40px;
+width: 352px;
+height: 56px;
+opacity: 0.9;
+color: #88939e;
+font-family: 'Source Sans Pro', sans-serif;
+font-size: 22px;
+font-weight: 400;
+}
+
+
+
+
+section#Help .Meet h3 {
+     margin-left: -470px;
+    margin-top: -20px;
+}
+
+section#Help .Meet h2 {
+width: 342px;
+margin-left: -370px;
+margin-top: 350px;    
+height: 28px;
+opacity: 0.9;
+color: #fb5c68;
+font-family: 'Source Sans Pro', sans-serif;
+font-size: 22px;
+font-weight: 700;
+}
+
+section#Help .Meet p {
+width: 352px;
+margin-left: -380px;
+margin-top: -70px;    
+height: 56px;
+opacity: 0.9;
+color: #88939e;
+font-family: 'Source Sans Pro', sans-serif;
+font-size: 22px;
+font-weight: 400;
+}
+
+
+section#Fim .chamada h2 {
+width: 613px;
+height: 45px;
+margin-left: 180px;
+margin-top: 130px;
+color: #4c4c51;
+font-family: 'Source Sans Pro', sans-serif;
+font-size: 36px;
+font-weight: 400;
+}
+
+section#Fim .chamada p {
+width: 820px;
+margin-left: 80px;
+height: 56px;
+opacity: 0.9;
+color: #88939e;
+font-family: 'Source Sans Pro', sans-serif;
+font-size: 22px;
+font-weight: 400;
+}
+
+
+
+section#Fim .chamada select {
+    width: 474px;
+    height: 60px;
+    padding-left: 40px;
+    border: 2px solid #dbdbdb;
+    border-radius: 100px 100px 0 0; 
+    margin-left: 260px;
+    color: #949ea8;
+    
+}
+
+section#Fim .chamada .botao {
+width: 474px;
+height: 20px;
+border-radius: 0 0 100px 100px;
+background-color: #fd6e74;
+}
+
+section#Fim .chamada img {
+
+margin-left: 670px;
+display: flex;
+margin-top: -80px;
+
+}
+
+
+
+
+
+
+
+article#rodape .chamada select {
+width: 339px;
+height: 60px;
+margin-top: 160px;     
+margin-left: -140px;
+display:flow-root;
+vertical-align: middle;
+border-radius: 2px;
+border: 2px solid #dbdbdb;
+color: #949ea8;
+opacity: 0.9;
+font-family: 'Source Sans Pro', sans-serif;
+font-size: 22px;
+font-weight: 400;    
+}
+
+
+article#contrape .chamada select {
+    width: 339px;
+height: 60px;
+margin-top: 25px;     
+margin-left: -140px;
+border-radius: 2px;
+border: 2px solid #dbdbdb;
+color: #949ea8;
+opacity: 0.9;
+font-family: 'Source Sans Pro', sans-serif;
+font-size: 22px;
+font-weight: 400;  
+}
+
+
+
+
+
+
+
+section#contemp .chamada h2 {
+width: 216px;
+height: 28px;
+margin-top: -80px;    
+margin-right: -70px;    
+opacity: 0.9;
+color: #fb5c68;
+font-family: 'Source Sans Pro', sans-serif;
+font-size: 22px;
+font-weight: 700;
+}
+
+section#contemp .chamada small {
+width: 216px;
+opacity: 0.9;
+display: block;
+color: #88939e;
+font-family: 'Source Sans Pro', sans-serif;
+font-size: 22px;
+font-weight: 400;
+line-height: 30px;
+}
+
+
+
+section#contemp2 .chamada h2 {
+width: 216px;    
+height: 28px;
+margin-top: -80px;        
+opacity: 0.9;
+color: #fb5c68;
+font-family: 'Source Sans Pro', sans-serif;
+font-size: 22px;
+font-weight: 700;
+}
+
+
+section#contemp2 .chamada small {
+width: 216px;
+opacity: 0.9;
+display: block;
+color: #88939e;
+font-family: 'Source Sans Pro', sans-serif;
+font-size: 22px;
+font-weight: 400;
+line-height: 30px;
+} 
+
+
+section#contemp3 .chamada h2 {
+width: 216px;    
+height: 28px;
+margin-top: -80px;
+opacity: 0.9;
+color: #fb5c68;
+font-family: 'Source Sans Pro', sans-serif;
+font-size: 22px;
+font-weight: 700;
+}
+
+
+section#contemp3 .chamada small {
+    width: 216px;
+opacity: 0.9;
+display: block;
+color: #88939e;
+font-family: 'Source Sans Pro', sans-serif;
+font-size: 22px;
+font-weight: 400;
+line-height: 30px;
+}
+
+
+footer {
+width: 1200px;
+height: 2px;
+border-radius: 2px;
+background-color: #e8e8e8;
+}
+
+footer h3 {
+width: 279px;
+height: 0px;  
+opacity: 0.9;
+margin-left: 540px;    
+color: #88939e;
+font-family: 'Source Sans Pro', sans-serif;
+font-size: 22px;
+font-weight: 400;
+line-height: 30px;
+}
+
+footer h4 {
+width: 279px;
+margin-top: 22px;    
+height: 0px;  
+opacity: 0.9;  
+color: #88939e;
+font-family: 'Source Sans Pro', sans-serif;
+font-size: 22px;
+font-weight: 400;
+line-height: 30px;
+}
+
+footer h5 {
+width: 279px;
+margin-top: 22px;     
+height: 0px;  
+opacity: 0.9;  
+color: #88939e;
+font-family: 'Source Sans Pro', sans-serif;
+font-size: 22px;
+font-weight: 400;
+line-height: 30px;
+}
+
+footer img {
+    margin-bottom: -59px
+}
+
